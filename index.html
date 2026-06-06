@@ -423,6 +423,18 @@ nav::before {
   transition: color 0.2s;
 }
 .contact-item-value a:hover { color: var(--blue-3); }
+.contact-item--phone {
+  border-color: var(--border-2);
+  background: var(--surface-3);
+}
+.contact-item--phone .contact-item-label { color: var(--blue-3); }
+.contact-item--phone .contact-item-value a {
+  font-family: var(--font-l);
+  font-size: 1.35rem; font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--white);
+}
+.contact-item--phone .contact-item-value a:hover { color: var(--blue-3); }
 
 /* form */
 .contact-form {
@@ -712,109 +724,13 @@ footer {
 </div>
 
 
-<!-- ── HERO ─────────────────────────────────────────── -->
-<section id="hero">
-  <div class="hero-inner">
-    <div class="hero-content">
-      <div class="eyebrow reveal">Utah's Mobile Semi Detailing</div>
-
-      <h1 class="reveal d1">Your Rig.<br><span>Revived.</span></h1>
-
-      <p class="hero-desc reveal d2">
-        Professional mobile detailing brought directly to your truck — at the yard, the lot,
-        or wherever you're parked. No downtime. No hassle. Just results that make your rig
-        look like it rolled off the line.
-      </p>
-
-      <div class="hero-btns reveal d3">
-        <button class="btn btn-primary" onclick="document.getElementById('pricing').scrollIntoView({behavior:'smooth'})">View Packages</button>
-        <button class="btn btn-ghost"   onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Request a Quote</button>
-      </div>
-
-      <div class="hero-stats reveal d4">
-        <div class="stat">
-          <div class="stat-num">3</div>
-          <div class="stat-label">Service Tiers</div>
-        </div>
-        <div class="stat">
-          <div class="stat-num">100%</div>
-          <div class="stat-label">Mobile — We Come to You</div>
-        </div>
-        <div class="stat">
-          <div class="stat-num">LLC</div>
-          <div class="stat-label">Insured &amp; Registered</div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<!-- ── TICKER ─────────────────────────────────────────── -->
-<div class="ticker-wrap" aria-hidden="true">
-  <div class="ticker-track">
-    <span>Commercial-Grade Products</span>
-    <span>Serving the Wasatch Front</span>
-    <span>Mobile Service</span>
-    <span>Day Cabs &amp; Sleepers</span>
-    <span>Fleet Operators Welcome</span>
-    <span>Fully Insured LLC</span>
-    <span>Zero Downtime</span>
-    <span>Three Service Tiers</span>
-    <span>Commercial-Grade Products</span>
-    <span>Serving the Wasatch Front</span>
-    <span>Mobile Service</span>
-    <span>Day Cabs &amp; Sleepers</span>
-    <span>Fleet Operators Welcome</span>
-    <span>Fully Insured LLC</span>
-    <span>Zero Downtime</span>
-    <span>Three Service Tiers</span>
-  </div>
-</div>
-
-
-<!-- ── WHY US ─────────────────────────────────────────── -->
-<section id="why">
-  <div class="why-layout">
-    <div class="why-left">
-      <div class="eyebrow reveal">Why RigRevive</div>
-      <h2 class="section-title reveal d1">Built for<br>the <em>Road</em></h2>
-      <p class="section-sub reveal d2">We come to you, fully equipped. No shop drop-offs, no waiting rooms, no wasted miles.</p>
-    </div>
-
-    <div class="why-cards">
-      <div class="why-card reveal">
-        <span class="why-icon">🚛</span>
-        <div class="why-title">We Come to You</div>
-        <p class="why-text">Mobile service means we bring water, power, and equipment directly to your truck stop, terminal, or parking lot.</p>
-      </div>
-      <div class="why-card reveal d1">
-        <span class="why-icon">🧴</span>
-        <div class="why-title">Commercial-Grade Products</div>
-        <p class="why-text">We use heavy-duty degreasers, diesel soot removers, and professional-grade protectants built for big rigs.</p>
-      </div>
-      <div class="why-card reveal d2">
-        <span class="why-icon">⏱</span>
-        <div class="why-title">Minimal Downtime</div>
-        <p class="why-text">We work around your schedule. Early morning, evenings, weekends — your timeline, not ours.</p>
-      </div>
-      <div class="why-card reveal d3">
-        <span class="why-icon">✅</span>
-        <div class="why-title">Insured &amp; Professional</div>
-        <p class="why-text">LLC registered, fully insured. Fleet operators and owner-operators can book with confidence.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-
 <!-- ── SERVICE LINES ─────────────────────────────────────────── -->
 <section id="services">
 
   <div class="services-header">
-    <div class="eyebrow reveal">Two Dedicated Units</div>
+    <div class="eyebrow reveal">Dedicated Mobile Units</div>
     <h2 class="section-title reveal d1">Built for<br><em>Every Job</em></h2>
-    <p class="section-sub reveal d2">Two purpose-built vans, two distinct crews. Industrial-grade work for commercial fleets. Meticulous care for personal vehicles.</p>
+    <p class="section-sub reveal d2">Industrial-grade work for commercial fleets. Meticulous care for personal vehicles.</p>
   </div>
 
   <div class="services-grid">
@@ -938,6 +854,102 @@ footer {
 
 
 
+<!-- ── HERO ─────────────────────────────────────────── -->
+<section id="hero">
+  <div class="hero-inner">
+    <div class="hero-content">
+      <div class="eyebrow reveal">Utah's Mobile Semi Detailing</div>
+
+      <h1 class="reveal d1">Your Rig.<br><span>Revived.</span></h1>
+
+      <p class="hero-desc reveal d2">
+        Professional mobile detailing brought directly to your truck — at the yard, the lot,
+        or wherever you're parked. No downtime. No hassle. Just results that make your rig
+        look like it rolled off the line.
+      </p>
+
+      <div class="hero-btns reveal d3">
+        <button class="btn btn-primary" onclick="document.getElementById('pricing').scrollIntoView({behavior:'smooth'})">View Packages</button>
+        <button class="btn btn-ghost"   onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Request a Quote</button>
+      </div>
+
+      <div class="hero-stats reveal d4">
+        <div class="stat">
+          <div class="stat-num">3</div>
+          <div class="stat-label">Service Tiers</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">100%</div>
+          <div class="stat-label">Mobile — We Come to You</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">LLC</div>
+          <div class="stat-label">Insured &amp; Registered</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ── TICKER ─────────────────────────────────────────── -->
+<div class="ticker-wrap" aria-hidden="true">
+  <div class="ticker-track">
+    <span>Commercial-Grade Products</span>
+    <span>Serving the Wasatch Front</span>
+    <span>Mobile Service</span>
+    <span>Day Cabs &amp; Sleepers</span>
+    <span>Fleet Operators Welcome</span>
+    <span>Fully Insured LLC</span>
+    <span>Zero Downtime</span>
+    <span>Three Service Tiers</span>
+    <span>Commercial-Grade Products</span>
+    <span>Serving the Wasatch Front</span>
+    <span>Mobile Service</span>
+    <span>Day Cabs &amp; Sleepers</span>
+    <span>Fleet Operators Welcome</span>
+    <span>Fully Insured LLC</span>
+    <span>Zero Downtime</span>
+    <span>Three Service Tiers</span>
+  </div>
+</div>
+
+
+<!-- ── WHY US ─────────────────────────────────────────── -->
+<section id="why">
+  <div class="why-layout">
+    <div class="why-left">
+      <div class="eyebrow reveal">Why RigRevive</div>
+      <h2 class="section-title reveal d1">Built for<br>the <em>Road</em></h2>
+      <p class="section-sub reveal d2">We come to you, fully equipped. No shop drop-offs, no waiting rooms, no wasted miles.</p>
+    </div>
+
+    <div class="why-cards">
+      <div class="why-card reveal">
+        <span class="why-icon">🚛</span>
+        <div class="why-title">We Come to You</div>
+        <p class="why-text">Mobile service means we bring water, power, and equipment directly to your truck stop, terminal, or parking lot.</p>
+      </div>
+      <div class="why-card reveal d1">
+        <span class="why-icon">🧴</span>
+        <div class="why-title">Commercial-Grade Products</div>
+        <p class="why-text">We use heavy-duty degreasers, diesel soot removers, and professional-grade protectants built for big rigs.</p>
+      </div>
+      <div class="why-card reveal d2">
+        <span class="why-icon">⏱</span>
+        <div class="why-title">Minimal Downtime</div>
+        <p class="why-text">We work around your schedule. Early morning, evenings, weekends — your timeline, not ours.</p>
+      </div>
+      <div class="why-card reveal d3">
+        <span class="why-icon">✅</span>
+        <div class="why-title">Insured &amp; Professional</div>
+        <p class="why-text">LLC registered, fully insured. Fleet operators and owner-operators can book with confidence.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 <!-- ── CONTACT ─────────────────────────────────────────── -->
 <section id="contact">
   <div class="contact-layout">
@@ -948,6 +960,12 @@ footer {
       <p class="section-sub reveal d2">Tell us about your rig and we'll get back to you fast.</p>
 
       <div class="contact-info-list reveal d3">
+        <div class="contact-item contact-item--phone">
+          <div class="contact-item-label">Contact Owen</div>
+          <div class="contact-item-value">
+            <a href="tel:+18015649942">📞 (801) 564-9942</a>
+          </div>
+        </div>
         <div class="contact-item">
           <div class="contact-item-label">Bookings</div>
           <div class="contact-item-value">
