@@ -562,7 +562,7 @@ footer {
 
 .services-grid {
   max-width: var(--max-w); margin: 0 auto;
-  display: grid; grid-template-columns: repeat(3, 1fr);
+  display: grid; grid-template-columns: repeat(2, 1fr);
   gap: 1.5px; background: var(--border);
   border: 1px solid var(--border);
   border-radius: 4px; overflow: hidden;
@@ -913,7 +913,7 @@ footer {
   </a>
   <div class="nav-links">
     <a href="#why">Why Us</a>
-    <a href="#services">Services</a>     <a href="/service-areas/">Service Areas</a>     <a href="#faq">FAQ</a>     <a href="#contact">Contact</a>
+    <a href="#services">Services</a>     <a href="/service-areas/">Service Areas</a>     <a href="/corporate-perks/">Corporate Perks</a>     <a href="#faq">FAQ</a>     <a href="#contact">Contact</a>
   </div>
   <div class="nav-social">
     <a href="https://www.instagram.com/rigrevivedetailing" target="_blank" rel="noopener noreferrer" aria-label="RigRevive on Instagram">
@@ -936,6 +936,7 @@ footer {
   <a href="#why"      onclick="closeMenu()">Why Us</a>
   <a href="#services" onclick="closeMenu()">Services</a>
   <a href="/service-areas/" onclick="closeMenu()">Service Areas</a>
+  <a href="/corporate-perks/" onclick="closeMenu()">Corporate Perks</a>
   <a href="#faq" onclick="closeMenu()">FAQ</a>   <a href="#contact"  onclick="closeMenu()">Contact</a>
   <div class="nav-social">
     <a href="https://www.instagram.com/rigrevivedetailing" target="_blank" rel="noopener noreferrer" aria-label="RigRevive on Instagram">
@@ -1048,6 +1049,26 @@ footer {
       </ul>
 
       <button class="svc-cta" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Book Now — Personal Fleets</button>
+      <br><a href="/corporate-perks/" style="display:inline-block;margin-top:.9rem;color:var(--blue-3);font-weight:600;font-size:.95rem;">Corporate employee perks program &rarr;</a>
+    </div>
+
+    <!-- ── Corporate Perks ── -->
+    <div class="svc-card personal reveal d3">
+      <div class="svc-name">Corporate<br>Perks</div>
+      <p class="svc-desc">Employee Appreciation, Top Performer Rewards.</p>
+
+      <div class="svc-divider"></div>
+      <div class="svc-block-label">Program Options</div>
+      <ul class="prog-list">
+        <li><span class="prog-check">+</span>Top performer detail</li>
+        <li><span class="prog-check">+</span>Team detail days</li>
+        <li><span class="prog-check">+</span>Milestones &amp; appreciation events</li>
+      </ul>
+
+      <p class="svc-price-note">Preferred corporate rates for partner companies.</p>
+
+      <button class="svc-cta" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Book Now — Corporate Perks</button>
+      <br><a href="/corporate-perks/" style="display:inline-block;margin-top:.9rem;color:var(--blue-3);font-weight:600;font-size:.95rem;">Learn more about the corporate perks program &rarr;</a>
     </div>
 
   </div>
@@ -1325,6 +1346,7 @@ footer {
   <nav class="footer-nav" aria-label="Footer">
     <a href="#why">About</a>
     <a href="/service-areas/">Service Areas</a>
+    <a href="/corporate-perks/">Corporate Perks</a>
     <a href="#contact">Contact</a>
   </nav>
 </footer>
